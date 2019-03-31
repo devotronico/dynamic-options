@@ -1,0 +1,17 @@
+* { margin: 0; padding: 0; }
+
+html { font-family: sans-serif; }
+
+body { background-color: #333; }
+
+.container {  width: 100%; min-height:100vh; display: flex; justify-content: center; background-color: #666; }
+
+.wrapper {  width: 60%; min-height:100vh; padding: 60px; display: flex; justify-content: center; flex-wrap: wrap; background-color: #999; }
+
+.box { 
+    width: 250px; height: 250px; 
+    display: flex; justify-content: center; align-items: center;  
+    border: 1px solid rgba(0, 0, 0, .1); background-color: #aaa; }
+
+ .box-select { width: 200px; }
+/* .select-xhr { display: none; }  */
